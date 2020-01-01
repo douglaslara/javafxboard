@@ -23,6 +23,6 @@ public class FloatingBoard extends Application {
 
     private void setStageProperties(Stage primaryStage) {
         primaryStage.setTitle("Floating Board");
-        primaryStage.initStyle(StageStyle.TRANSPARENT);
+//        primaryStage.initStyle(StageStyle.TRANSPARENT);
     }
 }

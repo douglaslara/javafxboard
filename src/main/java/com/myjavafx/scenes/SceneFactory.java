@@ -16,10 +16,9 @@ public class SceneFactory {
 
         StackPane layout = new StackPane();
         layout.getChildren().add(button);
-        layout.setStyle("-fx-background-color: transparent;");
+//        layout.setStyle("-fx-background-color: transparent;");
 
         Scene scene = new Scene(layout, 300, 300);
-        scene.setFill(Color.TRANSPARENT);
         return scene;
     }
 }
